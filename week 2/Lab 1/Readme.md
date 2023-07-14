@@ -37,3 +37,10 @@ adminstaff - -  EC2 support ---        | Read-Only access to Amazon EC2
 
 
 https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html
+
+
+Submitting the assignment
+
+1. Take a screenshot of each completed step
+2. Attach the screenshot to an output directory
+3. Push the updated repository to your own git account
