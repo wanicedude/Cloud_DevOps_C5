@@ -18,7 +18,7 @@
 
 >**Create an IAM user called _"Techstaff"_ and add the user to a group called _"S3 support"_ and grant _"Full access to S3"_**
 
-![Markdown Logo](https://i.ibb.co/SckVyG3/Tech-Staff.png)&nbsp;  
+![Markdown Logo](https://i.ibb.co/CwhbPBh/Tech-Staff.png)&nbsp;  
 
 
 >**Create an IAM user called _"ITexpert"_ and add the user to a group called _"EC2/SDK admin"_ and grant _"Full access to EC2 and SDK"_**
