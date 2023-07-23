@@ -1,46 +1,35 @@
-Working with IAM management console
+# Working with IAM management console
 
-Tasks
+>**Tasks**
 
-1. Login to your root account
-2. Create an IAM group with S3 read only acess (S3 support).
-3. Create an IAM group with EC2 read only acess (EC2 support)
-4. Create an IAM group with EC2 full access (EC2 admin)
-5. Create 3 IAM users and add to the each group above as descibe below:
-
-
-user      group          permissions
-user1     EC2 support     Read-Only access to Amazon EC2
-user2     S3 support      Read-Only access to Amazon S3
-user3     EC2 admin       Full access to Amazon EC2 instances
-
-6. Test your design
-
-7. Perform clean up operations
+1. **Create an IAM user called _"adminstaff"_ and add the user to a group called _"EC2 support"_ and grant _"Read-Only access to Amazon EC2"_**
+2. **Create an IAM user called _"Techstaff"_ and add the user to a group called _"S3 support"_ and grant _"Full access to S3"_**
+3. **Create an IAM user called _"ITexpert"_ and add the user to a group called _"EC2/SDK admin"_ and grant _"Full access to EC2 and SDK"_**
+4. **Create an IAM user called _"financialmanager"_ and add the user to a group called _"billingcontrol"_ and grant _"Billing Full Access"_**
+5. **Create an IAM user called _"financeuser"_ and add the user to a group called _"billinguser"_ and grant _"Billing view Access"_** &nbsp;    
 
 
-Replicate the process above forthe Schulltech organization described below:
+# Solution
 
 
-|user               |group        |  permissions
+ >**Create an IAM user called _"adminstaff"_ and add the user to a group called _"EC2 support"_ and grant _"Read-Only access to Amazon EC2"_**
 
-adminstaff - -  EC2 support ---        | Read-Only access to Amazon EC2
+![Markdown Logo](https://i.ibb.co/YT0hwzb/Admin-Staff.png) &nbsp;  
 
-|Techstaff          |S3 support           |Full access to S3
+>**Create an IAM user called _"Techstaff"_ and add the user to a group called _"S3 support"_ and grant _"Full access to S3"_**
 
-|ITexpert           |EC2/SDK admin        |full access to EC2 and SDK
-
-|financialmanager   | billingcontrol      |Billing Full Access  
-
-|financeuser        |billinguser          |Billing view access
+![Markdown Logo](https://i.ibb.co/SckVyG3/Tech-Staff.png)&nbsp;  
 
 
+>**Create an IAM user called _"ITexpert"_ and add the user to a group called _"EC2/SDK admin"_ and grant _"Full access to EC2 and SDK"_**
 
-https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html
+![Markdown Logo](https://i.ibb.co/PhVkHn6/IT-Expert.png) &nbsp;  
 
 
-Submitting the assignment
+>**Create an IAM user called _"financialmanager"_ and add the user to a group called _"billingcontrol"_ and grant _"Billing Full Access"_**
 
-1. Take a screenshot of each completed step
-2. Attach the screenshot to an output directory
-3. Push the updated repository to your own git account
+![Markdown Logo](https://i.ibb.co/D8GPdRG/Finance-Manager.png) &nbsp;  
+
+>**Create an IAM user called _"financeuser"_ and add the user to a group called _"billinguser"_ and grant _"Billing view Access"_**
+
+![Markdown Logo](https://i.ibb.co/z21dK0f/Finance-User.png) &nbsp;  
