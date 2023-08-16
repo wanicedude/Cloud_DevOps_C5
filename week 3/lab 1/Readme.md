@@ -18,32 +18,38 @@ https://docs.aws.amazon.com/cloudshell/latest/userguide/working-with-cloudshell.
 
 >**Create a VPC**
 
-![Markdown Logo](https://i.ibb.co/S77nd3S/Createvpc.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/5lSrLaJsJJOFtwE_1692175247.png) &nbsp;
+
 
 >**Create a Subnet**
 
-![Markdown Logo](https://i.ibb.co/S5jkGDy/Create-Subnet.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/7odImtp4ld6hdRO_1692175308.png) &nbsp;
 
 >**Create Key Pair for SSH access to the EC2 Instance**
 
-![Markdown Logo](https://i.ibb.co/NKcNPKp/Create-Key-Pair.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/f12zoLkcxgwIe0X_1692175374.png) &nbsp;
 
 
 >**Create Security Group**
 
-![Markdown Logo](https://i.ibb.co/tc2xTgm/CreateSG.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/k4g4umpHeqCHipt_1692175408.png) &nbsp;
 
 
 >**Create Security Group Inbound rule to accept SSH & HTTP access**
 
-![Markdown Logo](https://i.ibb.co/NC1gY8F/Create-SGIngress.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/opsNRzQmEbxHpgQ_1692175438.png) &nbsp;
 
 
 >**Create Security Group Outbound rule to accept SSH & HTTP access**
 
-![Markdown Logo](https://i.ibb.co/8099TDd/Create-SGEgress.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/c4RO9r8TCcx7uC3_1692175466.png) &nbsp;
+
+
+>**Get AMazon Linux AMI**
+
+![Markdown Logo](https://imageupload.io/ib/xaWDhM601WAxZXb_1692175579.png) &nbsp;
 
 
 >**Create Linux VM (Error Message)**
 
-![Markdown Logo](https://i.ibb.co/RQ9N3J3/Create-Linux-Instance.png) &nbsp;
+![Markdown Logo](https://imageupload.io/ib/xQRxbbJTFsM5SqD_1692175627.png) &nbsp;
