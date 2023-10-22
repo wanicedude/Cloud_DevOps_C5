@@ -51,14 +51,6 @@ Perform clean up actions
 ![Markdown Logo](https://imageupload.io/ib/e8tWcgXrVIn4e3p_1697965521.png) &nbsp;
 
 
->**Create Security Group Inbound rule to accept HTTP access**
-
-![Markdown Logo](https://imageupload.io/ib/opsNRzQmEbxHpgQ_1692175438.png) &nbsp;
-
-
->**Create Security Group Outbound rule to accept SSH & HTTP access**
-
-![Markdown Logo](https://imageupload.io/ib/c4RO9r8TCcx7uC3_1692175466.png) &nbsp;
 
 >**Create InternetGateway and Attach to VPC**
 
@@ -74,7 +66,7 @@ Perform clean up actions
 ![Markdown Logo](https://imageupload.io/ib/vLWkmJGYRsCd8UB_1697965222.png) &nbsp;
 
 
->**Lauch a Linux instance into the public subnet of this VPC**
+>**Launch a Linux instance into the public subnet of this VPC**
 
 ![Markdown Logo](https://imageupload.io/ib/TPmtu274KuGAzKj_1697965915.png) &nbsp;
 
